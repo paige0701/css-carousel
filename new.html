@@ -1,0 +1,331 @@
+<div class="edibot-product-detail" style="width:1000px;max-width:100%;margin:0 auto;">
+  <div type="application/json" class="-edibot-metadata" data-version="2.0.0" data-api="1.0.0" data-created="2021-02-04 15:39:04" data-projectid="N210201_2123" data-groupid="g000001" data-sessionid="11" data-classid="etc_0" data-shopno="1"
+    data-shoplang="ko_KR">
+    <!--{"api":"1.0.0","classid":"etc_0","groupid":"g000001","mallid":"kyungakim","projectid":"N210201_2123","sessionid":11,"version":"2.0.0","shopno":1,"shoplang":"ko_KR","created":"2021-02-04 15:39:04"}-->
+  </div>
+  <style>
+    .edibot-product-detail * {
+      font-family: inherit;
+      font-size: inherit;
+    }
+
+    .edibot-product-detail img[src=""],
+    .edibot-product-detail img:not([src]) {
+      visibility: hidden !important;
+      height: 1px !important;
+    }
+
+    * {
+      box-sizing: border-box
+    }
+
+    body {
+      font-family: Verdana, sans-serif;
+      margin: 0
+    }
+
+    .mySlides {
+      display: none
+    }
+
+    img {
+      vertical-align: middle;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+      height: 550px;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 120px;
+      width: 15px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      opacity: 0.3;
+    }
+
+    .active,
+    .dot:hover {
+      opacity: 1;
+    }
+
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+
+      .prev,
+      .next,
+      .text {
+        font-size: 11px
+      }
+    }
+
+
+    .carousel__thumbnails {
+      list-style: none;
+      margin: 0;
+      display: flex;
+
+      margin: 0 -4px;
+      padding: 0
+    }
+
+
+    li {
+      flex: 1 1 auto;
+      max-width: calc((100% / 6) - 5px);
+      margin: -3px 4px;
+      transition: all 300ms ease-in-out;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+
+  <div class="slideshow-container" style="margin-top: 20px;">
+
+    <div class="mySlides fade">
+      <img src="http://ather.co.kr/web/upload/NNEditor/20210201/252bbdf3f7ce4fbac897caba3c1a59d8.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="http://ather.co.kr/web/upload/NNEditor/20210201/5430c585d98fdb326ffeb1fd268f1fd7.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="http://ather.co.kr/web/upload/NNEditor/20210201/1549bdf710902d048d310fffe1bdbb9b.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="http://ather.co.kr/web/upload/NNEditor/20210201/f61e182e5d2ccf1ddb25e6b826fb2811.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="http://ather.co.kr/web/upload/NNEditor/20210201/60ecb480b617582656936bbbf09a05a8.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="http://ather.co.kr/web/upload/NNEditor/20210201/c128f6d834fb6e22408010dadd2b01e4.jpg" style="width:100%">
+    </div>
+
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <br>
+
+
+  </div>
+  <div style="margin-top: 10px;">
+    <ul class="carousel__thumbnails">
+      <li onclick="currentSlide(1)" class="dot">
+        <label><img src="http://ather.co.kr/web/upload/NNEditor/20210201/252bbdf3f7ce4fbac897caba3c1a59d8.jpg" alt=""></label>
+      </li>
+      <li onclick="currentSlide(2)" class="dot">
+        <label><img src="http://ather.co.kr/web/upload/NNEditor/20210201/5430c585d98fdb326ffeb1fd268f1fd7.jpg" alt=""></label>
+      </li>
+      <li onclick="currentSlide(3)" class="dot">
+        <label><img src="http://ather.co.kr/web/upload/NNEditor/20210201/1549bdf710902d048d310fffe1bdbb9b.jpg" alt=""></label>
+      </li>
+      <li onclick="currentSlide(4)" class="dot">
+        <label><img src="http://ather.co.kr/web/upload/NNEditor/20210201/f61e182e5d2ccf1ddb25e6b826fb2811.jpg" alt=""></label>
+      </li>
+      <li onclick="currentSlide(5)" class="dot">
+        <label><img src="http://ather.co.kr/web/upload/NNEditor/20210201/60ecb480b617582656936bbbf09a05a8.jpg" alt=""></label>
+      </li>
+      <li onclick="currentSlide(6)" class="dot">
+        <label><img src="http://ather.co.kr/web/upload/NNEditor/20210201/c128f6d834fb6e22408010dadd2b01e4.jpg" alt=""></label>
+      </li>
+    </ul>
+  </div>
+
+
+  <!-- <div style="position:relative;"><img alt="악세사리 상품상세 이미지-S1L4" src="http://ather.co.kr/web/upload/NNEditor/20210201/f61e182e5d2ccf1ddb25e6b826fb2811.jpg" style="display: block; max-width:100%"></div>
+  <div style="display: block;content: ' ';height:10px"></div>
+  <div style="position:relative;"><img alt="악세사리 상품상세 이미지-S1L5" src="http://ather.co.kr/web/upload/NNEditor/20210201/46e042e46b63e93bf9181e31aa89ccdd.jpg" style="display: block; max-width:100%"></div>
+  <div style="display: block;content: ' ';height:10px"></div>
+  <div style="position:relative;"><img alt="악세사리 상품상세 이미지-S1L6" src="http://ather.co.kr/web/upload/NNEditor/20210201/c128f6d834fb6e22408010dadd2b01e4.jpg" style="display: block; max-width:100%"></div>
+  <div style="display: block;content: ' ';height:10px"></div>
+  <div style="position:relative;"><img alt="악세사리 상품상세 이미지-S1L7" src="http://ather.co.kr/web/upload/NNEditor/20210201/a97deef2f5ebd0eebe93526821d00605.jpg" style="display: block; max-width:100%"></div>
+  <div style="display: block;content: ' ';height:10px"></div>
+  <div style="position:relative;"><img alt="악세사리 상품상세 이미지-S1L8" src="http://ather.co.kr/web/upload/NNEditor/20210201/60ecb480b617582656936bbbf09a05a8.jpg" style="display: block; max-width:100%"></div>
+  <div style="display: block;content: ' ';height:10px"></div>
+  <div style="position:relative;"><img alt="악세사리 상품상세 이미지-S1L9" src="http://ather.co.kr/web/upload/NNEditor/20210201/8d5ae9c0c8873a57f9e96160471204b5.jpg" style="display: block; max-width:100%"></div>
+  <div style="display: block;content: ' ';height:10px"></div>
+  <div style="position:relative;"><img alt="악세사리 상품상세 이미지-S1L10" src="http://ather.co.kr/web/upload/NNEditor/20210201/f487e714e14cfa9cb7c33701a56de32c.jpg" style="display: block; max-width:100%"></div>
+  <div style="display: block;content: ' ';height:10px"></div>
+  <div style="position:relative;"><img alt="악세사리 상품상세 이미지-S1L11" src="http://ather.co.kr/web/upload/NNEditor/20210201/9b6eaf08ad24b752f6bdf2c16ec46947.jpg" style="display: block; max-width:100%"></div>
+  <div style="display: block;content: ' ';height:10px"></div>
+  <div style="position:relative;"><img alt="악세사리 상품상세 이미지-S1L12" src="http://ather.co.kr/web/upload/NNEditor/20210201/2e9cf48369ea485f025ae4fbdafe7426.jpg" style="display: block; max-width:100%"></div>
+  <div style="display: block;content: ' ';height:10px"></div>
+  <div style="position:relative;"><img alt="악세사리 상품상세 이미지-S1L13" src="http://ather.co.kr/web/upload/NNEditor/20210201/d920fd5b9e079279a27c1eb093ae448b.jpg" style="display: block; max-width:100%"></div>
+  <div style="display: block;content: ' ';height:10px"></div>
+  <div style="position:relative;"><img alt="악세사리 상품상세 이미지-S1L14" src="http://ather.co.kr/web/upload/NNEditor/20210201/366c28e9809a92e120044c4b52bdedb1.jpg" style="display: block; max-width:100%"></div>
+  <div style="display: block;content: ' ';height:10px"></div>
+  <div style="position:relative;"><img alt="악세사리 상품상세 이미지-S1L19" src="http://ather.co.kr/web/upload/NNEditor/20210201/1549bdf710902d048d310fffe1bdbb9b.jpg" style="display: block; max-width:100%"></div>
+  <div style="display: block;content: ' ';height:10px"></div>
+  <div style="position:relative;"><img alt="악세사리 상품상세 이미지-S1L20" src="http://ather.co.kr/web/upload/NNEditor/20210201/5430c585d98fdb326ffeb1fd268f1fd7.jpg" style="display: block; max-width:100%"></div>
+  <div style="display: block;content: ' ';height:10px"></div>
+  <div style="position:relative;"><img alt="악세사리 상품상세 이미지-S1L21" src="http://ather.co.kr/web/upload/NNEditor/20210201/b1afdff21ba410bc776ac715ac54e5ce.jpg" style="display: block; max-width:100%"></div>
+  <div style="display: block;content: ' ';height:10px"></div>
+  <div style="position:relative;"><img alt="악세사리 상품상세 이미지-S1L22" src="http://ather.co.kr/web/upload/NNEditor/20210201/252bbdf3f7ce4fbac897caba3c1a59d8.jpg" style="display: block; max-width:100%"></div>
+  <div style="display: block;content: ' ';height:100px"></div>
+  <div style="position:relative;"><img alt="악세사리 상품상세 이미지-S1L15" src="http://ather.co.kr/web/upload/NNEditor/20210201/696cd96f7b78a0d5b4667436bbf08124.jpg" style="display: block; max-width:100%"></div>
+  <div style="display: block;content: ' ';height:44px"></div> -->
+  <!-- <div>
+    <div
+      style="width:100%;height:100%;position:relative;font-family:&quot;malgun gothic&quot;,sans-serif;font-size:14px;color:#000000;font-style:normal;font-weight:400;text-align:center;line-height:1.5;letter-spacing:0;word-spacing:0;background-color:rgba(255,255,255,0);text-decoration-skip-ink:none;">
+      <div><br></div>
+      <div><br></div>
+      <div style="text-align: center;"><span style="background-color: rgba(0, 0, 0, 0); font-size: 20px;"><span style="font-family: palatino, sans-serif;"><span style="font-family: palatino, sans-serif;">a.ther's package</span></span></span></div>
+      <div style="text-align: center;"><span style="background-color: rgba(0, 0, 0, 0);"><span style="font-family: palatino, sans-serif;"><span
+              style="font-family: palatino, sans-serif; background-color: rgba(0, 0, 0, 0); font-size: 14px; color: rgb(166, 143, 129);">a.ther의 감성이 담긴 Special Packaging을 경험해보세요.</span></span></span></div>
+      <div style="text-align: center;"><br></div>
+      <div style="text-align: center;"><span style="font-size: 15px; background-color: rgba(0, 0, 0, 0);"><span style="font-family: palatino, sans-serif;"><span style="font-family: &quot;courier new&quot;, sans-serif;"><span
+                style="font-family: palatino, sans-serif;">- Certification : </span></span></span></span></div>
+      <div style="text-align: center;"><span style="font-family: palatino, sans-serif; font-size: 15px; letter-spacing: 0px;">제품의 품질보증서 입니다. 가죽 타입과 컬러, 사이즈를 확인 하실 수 있으며, 출고일자 및 검수도장이 날인되어 있습니다. </span></div>
+      <div style="text-align: center;"><span style="font-size: 15px; background-color: rgba(0, 0, 0, 0);"><span style="font-family: palatino, sans-serif;"><span style="font-family: &quot;courier new&quot;, sans-serif;"><span
+                style="font-family: palatino, sans-serif;"><br /></span></span></span></span></div>
+      <div style="text-align: center;"><span style="font-size: 15px; background-color: rgba(0, 0, 0, 0);"><span style="font-family: palatino, sans-serif;"><span style="font-family: &quot;courier new&quot;, sans-serif;"><span
+                style="font-family: palatino, sans-serif;">- Quality Assurance & After Sales Service : </span></span></span></span></div>
+      <div style="text-align: center;"><span style="font-family: palatino, sans-serif; font-size: 15px; letter-spacing: 0px;">품질 보증기간 및 AS서비스가 안내되어 있습니다. </span></div>
+      <div style="text-align: center;"><span style="font-size: 15px; background-color: rgba(0, 0, 0, 0);"><span style="font-family: palatino, sans-serif;"><span style="font-family: palatino, sans-serif;"><br /></span></span></span></div>
+      <div style="text-align: center;"><span style="font-size: 15px; background-color: rgba(0, 0, 0, 0);"><span style="font-family: palatino, sans-serif;"><span style="font-family: palatino, sans-serif;">-</span></span></span><span
+          style="font-family: palatino, sans-serif; font-size: 15px; letter-spacing: 0px;">&nbsp;Leather Card : </span></div>
+      <div style="text-align: center;"><span style="font-family: palatino, sans-serif; font-size: 15px; letter-spacing: 0px;">제품의 가죽에 대한 안내서입니다. 가죽에 대한 설명과 간단한 관리법이 기재되어 있습니다.</span></div>
+      <div style="text-align: center;"><span style="font-size: 15px; background-color: rgba(0, 0, 0, 0);"><span style="font-family: palatino, sans-serif;"><span style="font-family: palatino, sans-serif;"><br /></span></span></span></div>
+      <div style="text-align: center;"><span style="font-size: 15px; background-color: rgba(0, 0, 0, 0);"><span style="font-family: palatino, sans-serif;"><span style="font-family: palatino, sans-serif;">- Strap Pouch : &nbsp;</span></span></span>
+      </div>
+      <div style="text-align: center;"><span style="font-size: 15px; background-color: rgba(0, 0, 0, 0);"><span style="font-family: palatino, sans-serif;"><span style="font-family: palatino, sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp;스트랩을 보관 할 수 있는 파우치를
+              함께 드립니다. </span></span></span></div>
+      <div style="text-align: left; "><span style="font-size: 15px; background-color: rgba(0, 0, 0, 0);"><span style="font-family: palatino, sans-serif;"><span style="font-family: palatino, sans-serif;"><br /></span></span></span></div>
+      <div style="text-align: left; "><span style="font-size: 15px; background-color: rgba(0, 0, 0, 0);"><span style="font-family: palatino, sans-serif;"><span style="font-family: palatino, sans-serif;"><br /></span></span></span></div>
+    </div>
+  </div> -->
+  <div style="display: block;content: ' ';height:52px;"></div>
+  <div style="position:relative;"><img alt="악세사리 화이트 색상 이미지-S1L17" src="http://ather.co.kr/web/upload/NNEditor/20210201/5bed3c66a23a3dc30bdc3cb20de1ac54.jpg" style="display: block; max-width:100%"></div>
+  <div style="display: block;content: ' ';height:0px"></div>
+  <div style="position:relative;"><img alt="악세사리 화이트 색상 이미지-S4L1" src="http://ather.co.kr/web/upload/NNEditor/20210202/27c79f4f57b376b062243fc980f1a2fa.jpg" style="display: block; max-width:100%"></div>
+  <div style="display: block;content: ' ';height:100px"></div>
+</div>
+
+<script type="text/javascript">
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {
+      slideIndex = 1
+    }
+    if (n < 1) {
+      slideIndex = slides.length
+    }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+  }
+</script>
